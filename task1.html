@@ -1,83 +1,162 @@
 <!doctype html>
 <html>
  <head>
-  <meta charset="UTF-8">
-  <title>我的第一个页面</title>
+	  <meta charset="UTF-8">
+	  <link type="text/css" rel="stylesheet" href="task1.css">
+	  <title>我的第一个页面</title>
  </head>
  <body>
-  <h1>文章一级标题</h1>
-  <ul>
-  <li><a href="http://ife.baidu.com/course/all">百度-ife</a></li>
-  <li><a href="https://github.com/zhoufenK">GitHub</a></li>
-  <li><a href="http://my.sina.com.cn/">我的微博</a></li>
-  <li><a href="http://www.w3school.com.cn/">w3cschool</a></li>
-  </ul>
-  <h2>文章二级标题</h2>
-  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-  <p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落。</p>
-  <br />
-  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRc_Pxdp6fyjhug9a0pwBpJSt9T-oeg8O-rDuq4-eIJR3YmbDKF" alt="picture" title="图片">
-  <br />
-  <p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落</p>
-  <br />
-  <p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="http://ife.baidu.com/">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落。</p>
-  <div><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSt4lg4JHEqzbJRXM9v5pKeNymgd07sBpKNtoUHg9x2zhy-tOU9Aw"></div>
-  <ol>
-  <li>列表项目一</li>
-  <li>列表项目二</li>
-  <li>列表项目三</li>
-  </ol>
-  <h3>图片<h3>
-  <br />
-  <p><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeLiNcZpGKqrex4G4pp6mPlVaopxLP9NM7gqp5rbq99rH-Rlt5">好看的图片</p>
-  <table border="1">
-  <tr>
-  <th>表头</th>
-  <th>表头</th>
-  <th>表头</th>
-  </tr>
-  <tr>
-  <td>表内容单元格</td>
-  <td>表内容单元格</td>
-  <td>操作</td>
-  </tr>
-  <tr>
-  <td>表内容单元格</td>
-  <td>表内容单元格</td>
-  <td>操作</td>
-  </tr>
-  <tr>
-  <td>表内容单元格</td>
-  <td>表内容单元格</td>
-  <td>操作</td>
-  </tr>
-  <tr>
-  <td>总计</td>
-  <td>1000</td>
-  </tr>
-  </table>
-  <form>
-  请输入邮箱地址:<input type="email" name="email" value="这是一个文本输入框"/><br />
-  <p>邮箱地址请按要求格式输入</p>
-  请输入密码:<input type="text" name="password" value="这是一个文本输入框"/>请重复输入密码：<input type="text" name="password" value="这是一个文本输入框"/><br />
-  <p>密码请为8-16位英文数字</p>
-  性别：
-  <input type="radio" name="sex" value="male" checked/>男
-  <input type="radio" name="sex" value="female" />女
-  爱好：<input type="checkbox" name="hobby" value="sport"/>运动
-  <input type="checkbox" name="hobby" value="art"/>艺术
-  <input type="checkbox" name="hobby" value="science"/>科学
-  城市<select name="city">
-  <option value="北京" selected="selected">北京</option>
-  <option value="上海">上海</option>
-  <option value="广东">广东</option>
-  <option value="深圳">深圳</option>
-  </select>
-  <p>个人描述:
-  <textarea rows="10" cols="20">这是一个多行输入框，输入您的个人描述。</textarea>
-  </p>
-  <input type="submit" value="确认提交">
-  </form>
-  <div>&copy2017，zhoufenk版权所有</div>
+	   <div class="nav-bar">
+		  <img src="image/baidu.png" alt="baidu-logo">
+		  <ul>
+			  <li><a href="http://ife.baidu.com/course/all">百度-ife</a></li>
+			  <li><a href="https://github.com/zhoufenK">GitHub</a></li>
+			  <li><a href="http://my.sina.com.cn/">我的微博</a></li>
+			  <li><a href="http://www.w3school.com.cn/">w3cschool</a></li>
+		  </ul>
+	  </div>
+	 <div class="container">
+      <div class="main body1">
+	  <h2>文章一级标题</h2>
+	  <h4>文章二级标题</h4>
+	  <h6>文章作者 文章发表时间</h6>
+		  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。<br>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="http://ife.baidu.com/">这里有一个链接链接到                      http://ife.baidu.com</a>这是一个很长很长的段落。</p>
+		  <div class="img">
+		      <img src="image/images1.jpg" alt="picture" title="图片">
+		  </div>
+		  <p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落<br>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="http://ife.baidu.com/">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落。</p>
+	  </div>
+	  <div class="main body2">
+		<h2 >另一篇文章的一级标题</h1>
+		<h4 >文章二级标题</h2>
+		<h6 >文章作者 文章发表时间</h6>
+		<p>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落。<br>
+		这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,<a href="http://ife.baidu.com/">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落。</p>
+	   <img src="image/images2.jpg">
+		<ol>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ol>
+	  </div>
+
+	  <div class="main body3">
+	   <h3>图片<h3>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+		   <div class="picture"><p>好看的图片</p>
+		   <img src="image/images3.jpg"></div>
+	  </div>
+
+	  <div class="main body4">
+	  <h2>最后一篇文章一级标题</h1>
+	  <h4>文章二级标题</h2>
+	  <h6>文章作者 文章发表时间</h3>
+		  <ol>
+			  <li>排名1</li>
+			  <li>排名2</li>
+			  <li>排名3</li>
+		  </ol>
+		  <table>
+			  <tr>
+				  <th >表头</th>
+				  <th >表头</th>
+				  <th >表头</th>
+			  </tr>
+			  <tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td>操作</td>
+			  </tr>
+			  <tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td>操作</td>
+			  </tr>
+			  <tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td>操作</td>
+			  </tr>
+			  <tr class="all">
+				  <td>总计</td>
+				  <td colspan="2">1000</td>
+			  </tr>
+		  </table>
+	  </div>
+  <div class="main body5">
+  <div class="side-bar"><h1>这里以后是一个侧栏，这是侧栏的标题</h1></div>
+   <table>
+		<tr>
+			<td>请输入邮箱地址</td>
+			<td><input type="email" name="email" id="text" value="这是一个文本输入框"/></label></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>邮箱地址请按要求格式输入</td>
+		</tr>
+		 <tr>
+			 <td></td>
+			 <td></td>
+		 </tr>
+		 <tr>
+			 <td><label>请输入密码</td>
+			 <td><input type="text" name="password" id="password" value="这是一个文本输入框"/></label></td>
+	     </tr>
+		 <tr>
+			  <td><label>请重复输入密码</td>
+			  <td><input type="text" name="password" id="pass" value="这是一个文本输入框"/></label></td>
+	     </tr>
+		 <tr>
+			  <td></td>
+			  <td>密码请为8-16位英文数字</td>
+		</tr>
+		<tr>
+			  <td></td>
+			  <td></td>
+		</tr>
+		<tr>
+			  <td>性别</td>
+			  <td><label><input type="radio" name="sex" value="male" checked/>男</label>
+			  <label><input type="radio" name="sex" value="female" />女</label></td>
+		</tr>
+		  <tr>
+			  <td>爱好</td>
+			  <td><label><input type="checkbox" name="hobby" id="yundong" value="sport"/>运动</label>
+			  <label><input type="checkbox" name="hobby"  value="art"/>艺术</label>
+			  <label ><input type="checkbox" name="hobby" value="science"/>科学</label></td>
+		  </tr>
+		  <tr>
+			  <td>城市</td>
+			  <td><select name="city" id="chengshi">
+			  <option name="city" value="bj" selected="selected">北京</option>
+			  <option name="city" value="sh">上海</option>
+			  <option name="city" value="gd">广东</option>
+			  <option name="city" value="sz">深圳</option>
+			  </select></td>
+		  </tr>
+		<div>
+	  <td>个人描述</td>
+	  <td><textarea rows="6" cols="90">这是一个多行输入框，输入您的个人描述。</textarea></td></div>
+	  </tr>
+	</table>
+  <div class="submit">确认提交</div>
+</div>
+<!--footer-->
+  <div class="footer">
+	<p>版权所有&copy</p>
+  </div>
 </body>
 </html>
